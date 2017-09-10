@@ -1,5 +1,5 @@
- /*Master Styles 
-h1 {
+ Master Styles 
+/*h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
@@ -11,29 +11,23 @@ h2, h3 {
 }
 body {
   margin: 2em;
-}
-.form-control.ng-touched.ng-invalid{
-  border-color:red;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 0, 0, .6);
-          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255, 0, 0, .6);
-}
-.form-control.ng-touched.ng-valid{
+}*/
+.ng-touched.ng-invalid{
+ border:	2px solid	red;
+ }
+/*.form-control.ng-touched.ng-valid{
   border-color:green;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 255, 0, .6);
           box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(0, 255, 0, .6);
-}
+}*/
 .input-error{
   padding-left: 15px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
-.avatar{
+/*.avatar{
   width: 100px;
   height: 100px;
   border-radius: 100%;
 }*/
-.active{
-  color: red;
-  background-color: orange;
-}
